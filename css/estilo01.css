@@ -1,0 +1,138 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(121, 121, 121) ;
+    width: 90%;/*O corpo do texto ocupa 90% da area visivel do navegador*/
+    margin: 0 auto;/*divide  conteudo de forma proporcional no navegador*/
+
+}
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #161616;
+    margin-top:50px;
+    border-radius: 5px;
+
+}
+#logo img{
+    width: 45%;
+    padding-top: 50px;
+
+}
+.navegacao{
+    overflow: hidden;
+}
+.navegacao a{
+    color: rgb(173, 173, 173);
+    float: right;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    text-align: right;
+}
+.navegacao a:hover{/*faz alteracao quando o mause passa por cima do conteudo*/
+    color: #e32936;
+    background-color: black;
+}
+.principal{
+    display: flex;
+    flex-direction: row;/*permite que o conteudo fique'flexivel' para a manipulacao ocupando uma linha disposto em colunas*/
+}
+.conteudo{
+  margin-top: 20px;
+  align-items: center;  
+}
+.center{
+  align-items: center;
+}
+
+.rodape{
+    color: darkgrey;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #161616;
+  
+  }
+  
+  li {
+    float: right;
+  
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: #202020;
+    border-radius: 2px;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 240px;
+    right: 60px;
+    background-color: darkgray;
+    width:110px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 3px;
+    overflow-y: auto;
+    height:300px ;
+    
+    
+  }
+  
+  .dropdown-content a {
+    width: 80px;
+    color: black;
+    margin: 0 auto;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  
+  }
+  
+  .dropdown-content a:hover {background-color: darkgray;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .css{
+    position: relative;
+    left:345px;
+    border: 2px;
+    height: 250px;
+  }
+  .html{
+    position: relative;
+    left:295px;
+    border: 2px;
+    height:250px ; 
+  }
+  .java{
+    position: relative;
+    left:445px;
+    border: 2px;
+    height:250px ;
+  }
+  .conteudo img:hover{
+    width: 280px;
+    height: 270px;
+  }
+ 
