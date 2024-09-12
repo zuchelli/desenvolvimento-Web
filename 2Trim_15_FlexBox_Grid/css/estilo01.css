@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(121, 121, 121);
+    width: 90%;
+    margin: 0 auto;
+
+}
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #161616;
+    margin-top:50px;
+    border-radius: 5px;
+
+}
+#logo img{
+    width: 45%;
+    padding-top: 50px;
+
+}
+.navegacao{
+    overflow: hidden;
+}
+.navegacao a{
+    color: rgb(173, 173, 173);
+    float: right;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    text-align: right;
+}
+.navegacao a:hover{
+    color: #e32936;
+    background-color: black;
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;/*o conteudo flexivel usando flexbox usa a funcao gap para espacar o conteudo que tem dentro*/
+
+    
+}
+
+.conteudo1{
+    float: left;
+    background-color: gainsboro;
+    padding: 15px;
+    text-align: justify;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #08101a98;
+    
+}
+.conteudo2{
+    float: left;
+    background-color: gainsboro;
+    padding: 15px;
+    text-align: justify;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #08101a98;
+    
+}
+.rodape{
+    color: darkgrey;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
+}
+.t1{
+    text-align: center;
+    color:darkgrey;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /*o conteudo flexivel usando grid usa a funcao grid ao lado criar colunas e definir o espaco que vao ocupar*/
+    gap: 1rem;
+    padding: 1rem;
+    position: relative;
+    left: 150px;
+  }
+  .item img{
+    width:150px ;
+    height:220px ;
+  }
