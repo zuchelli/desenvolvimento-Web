@@ -1,0 +1,121 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    font-family: "lato", "sans-serif";
+    color: #777;
+}
+.kaynewest{
+    position: relative;
+    background-image: url("../img/img.kaynewest.jpg");
+    height: 100%;
+    opacity: 0.75;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caption{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+.caption span.border{
+    background-color: rgba(139, 0, 0, 0.788);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+.kaynewest2{
+    position: relative;
+    background-image:url("../img/img.kanyewest_C.D..jpg");
+    height: 100%;
+    opacity: 0.75;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caption2{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+.caption2 span.border{
+    background-color: rgba(236, 176, 11, 0.712);
+    color: rgb(136, 6, 6);
+    padding: 20px;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+.kaynewest3{
+    position: relative;
+    background-image:url("../img/img.kaynewest_G..jpg");
+    height: 100%;
+    opacity: 0.75;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caption3{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+.caption3 span.border{
+    background-color: rgba(182, 53, 182, 0.849);
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+.kaynewest4{
+    position: relative;
+    background-image:url("../img/img.kaynewest_M.B.D.T.F..png");
+    height: 100%;
+    opacity: 0.75;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caption4{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+.caption4 span.border{
+    background-color: rgba(0, 0, 0, 0.671);
+    color: rgb(250, 11, 11);
+    padding: 20px;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+.box1{
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+}
+.box1 h3{
+    text-align: center;
+}
+.box2{
+    color: white;
+    background-color: #313131;
+    text-align: center;
+    padding: 50px 80px;
+}

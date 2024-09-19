@@ -1,0 +1,114 @@
+div{
+    width:1200px ;
+    height: 200px;
+}
+.cima{
+    background-color: blue;
+    position: relative;
+
+}
+.center{
+    background-color: green;
+    position: relative;
+
+}
+.baixo{
+    background-color:red;
+    position: relative;
+}
+.ecima{
+    width: 300px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    right: 300px;
+    top: 50px;
+}
+.dcima{
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    left: 300px;
+    bottom: 50px;
+}
+.ecenter{
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    right: 300px;
+    top: 50px;
+}
+.dcenter{
+    width: 300px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    left: 300px;
+    bottom: 50px;
+}
+.ebaixo{
+    width: 300px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    right: 300px;
+    top: 50px;
+}
+.dbaixo{
+    width: 300px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    left: 300px;
+    bottom: 50px;
+}
+.vd{
+    display: inline-block;
+    background-color: green;
+    width: 50px;
+    height: 100px;
+   
+    
+}
+.b{
+    display: inline-block;
+    width: 50px;
+    height: 100px;
+    background-color:white;
+    
+    
+}
+.vm{
+    display: inline-block;
+    width: 50px;
+    height: 100px;
+    background-color:red;
+    
+}
+.borda{
+    border:solid 2px black;
+    width: 155px;
+    height: 100px;
+}
+.verm{
+    width: 155px;
+    height: 50px;
+    background-color: red;
+}
+.branco{
+    width: 155px;
+    height: 50px;
+    background-color: white;
+}
+.ap{
+
+}
+.av{
+
+}
+.am{
+    
+}
+
