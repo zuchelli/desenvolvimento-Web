@@ -30,10 +30,30 @@ alert(lista)
 lista.unshift("Gervrásio")*/
 /*Faca um programa que seja possivel inserir frutas em uma lista item a item atraves de uma caixa de dialogo 
 a inserção deve encerrar quando o usuario digitar fim, deve ser apresentada a lista no doc html */ 
-var i,fruta,lista[]
-i=0
+/* VERSÃO 1
+var i,fruta,lista=[]
 do{
     fruta=prompt("Digite a fruta")
-    lista.push(fruta)
+    if(fruta!="fim"){
+        lista.push(fruta)
+    }
+}while(fruta!="fim")
+ document.write(lista)
+*/
+/*VERSÃO 2
+var i,fruta,lista=[]
+do{
+    fruta=prompt("Digite a fruta")
+     lista.push(fruta)
 
-}while(fruta==fim)
+}while(fruta!="fim")
+lista.pop()
+ document.write(lista)
+ */
+ var i,fruta,lista=[]
+ do{
+     fruta=prompt("Digite a fruta")
+      lista.push(fruta)
+ }while(fruta!=null)
+  lista.pop()
+  document.write(lista)
