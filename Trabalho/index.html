@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- Cabeçalho do documento HTML -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebFinances</title>
+  <!-- Link para o arquivo de estilos e a fonte -->
+  <link rel="stylesheet" href="estilos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Título principal da página -->
+  <h1>WebFinances</h1>
+  
+  <!-- Formulário de cadastro de transações -->
+  <form id="formulario-transacao">
+    <!-- Campo oculto para armazenar o índice da transação em edição -->
+    <input type="hidden" id="indice-edicao" value="-1">
+    <!-- Campo para o nome/descrição da transação -->
+    <input type="text" id="nome" placeholder="Nome/descrição" required>
+    <!-- Combo box para selecionar a categoria (receita ou despesa) -->
+    <select id="categoria">
+      <option value="receita">Receita</option>
+      <option value="despesa">Despesa</option>
+    </select>
+    <!-- Campo para selecionar a data da transação -->
+    <input type="date" id="data" required>
+    <!-- Campo para inserir o valor da transação -->
+    <input type="number" id="valor" placeholder="Valor" required>
+    <!-- Botão para adicionar ou atualizar a transação -->
+    <button type="submit">Adicionar</button>
+  </form>
+  
+  <!-- Tabela para listar as transações cadastradas -->
+  <table id="tabela-transacoes">
+    <thead>
+      <tr>
+        <th>Nome/Descrição</th>
+        <th>Categoria</th>
+        <th>Data</th>
+        <th>Valor</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- As transações serão adicionadas dinamicamente aqui -->
+    </tbody>
+  </table>
+  
+  <!-- Div para exibir o resumo financeiro -->
+  <div id="resumo-financeiro">
+    <p>Total de Receitas: <span id="total-receitas">0</span></p>
+    <p>Total de Despesas: <span id="total-despesas">0</span></p>
+    <p>Saldo Final: <span id="saldo-final">0</span></p>
+  </div>
+
+  <!-- Link para o arquivo de script -->
+  <script src="script.js"></script>
+</body>
+</html>

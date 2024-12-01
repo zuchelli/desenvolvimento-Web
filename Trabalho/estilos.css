@@ -1,0 +1,47 @@
+
+        /* Adicione suas regras de estilo aqui */
+        body {
+            font-family: 'Comic Sans MS', Arial, sans-serif; /* Fonte  */
+            background-color: #f7c1a1; /* Cor de fundo  */
+            color: #333;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #8B4513; /* Cor do h1 */
+        }
+        
+        form, table, #resumo-financeiro {
+            margin: 20px auto;
+            width: 85%; 
+            max-width: 800px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            border: 2px solid #000000; /* Cor das linhas da tabela */
+            padding: 10px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #8B4513; 
+            color: #f7c1a1; /* Cor do texto */
+        }
+        
+        button {
+            background-color: #8B4513; 
+            color: #f7c1a1;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #e68f67; 
+        }
+    
